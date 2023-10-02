@@ -1,0 +1,9 @@
+Para executar é necessário ter o python 3 instalado, a biblioteca networkx e a matplot, você 
+deve executar no terminal da seguinte maneira: python3 fconexos.py
+
+O algoritimo recebe as relações do grafo por meio do arquivo "arquivo.txt", onde cada linha
+possui duas colunas: a primeira referente a um vértice de saída e a segunda referente a um vértice de entrada.
+
+A saída esperada é uma lista que contém todos os vértices fortemente conexos
+
+A lógica do algoritmo é implementada tendo como base o algoritmo de kosaraju
